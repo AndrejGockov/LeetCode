@@ -24,3 +24,8 @@ This is repository is documentation for all my LeetCode solutions. It will be up
 |  0151  |  Invert Binary Tree |  Medium |
 |  0151  |  Majority Element |  Easy |
 |  0217  |  Contains Duplicate |  Easy |
+|  0238  |  Product of Array Except Self |  Medium |
+|  0450  |  Delete Node in a BST |  Medium |
+|  1759  |  Count Number of Homogenous Substrings |  Medium |
+|  2149  |  Rearrange Array Elements by Sign |  Medium |
+|  2364  |  Count Number of Bad Pairs |  Medium |
