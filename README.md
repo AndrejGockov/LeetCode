@@ -6,11 +6,13 @@
 - [Problems Solved](#Problems-Solved)
 
 ## Summary
-This is repository is documentation for all my LeetCode solutions. It will be updated frequently.
+This is repository is documentation for all my LeetCode solutions. 
+It will be frequently updated as I solve the problems.
 
 ## LeetCode Stats
 
-## Problems Solved
+
+## Solved Problems
 | Number | Question | Difficulty |
 |--------|----------|------------|
 |  0001  |  Two Sum |  Easy      |
@@ -22,7 +24,7 @@ This is repository is documentation for all my LeetCode solutions. It will be up
 |  0066  |  Plus One |  Easy |
 |  0125  |  Valid Palindrome |  Easy |
 |  0151  |  Invert Binary Tree |  Medium |
-|  0151  |  Majority Element |  Easy |
+|  0169   |  Majority Element |  Easy |
 |  0217  |  Contains Duplicate |  Easy |
 |  0238  |  Product of Array Except Self |  Medium |
 |  0450  |  Delete Node in a BST |  Medium |
