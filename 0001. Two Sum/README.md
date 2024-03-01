@@ -9,26 +9,32 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order.
 
 <br/>
-Example 1:
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-Input: nums = [2,7,11,15], target = 9
-Output: [0,1]
-Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+<pre style="position: relative;"><strong>Input:</strong> nums = [2,7,11,15], target = 9
+<strong>Output:</strong> [0,1]
+<strong>Explanation:</strong> Because nums[0] + nums[1] == 9, we return [0, 1].
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
+<p><strong class="example">Example 2:</strong></p>
+
+<pre style="position: relative;"><strong>Input:</strong> nums = [3,2,4], target = 6
+<strong>Output:</strong> [1,2]
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre style="position: relative;"><strong>Input:</strong> nums = [3,3], target = 6
+<strong>Output:</strong> [0,1]
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 <br/>
-Example 2:
-
-Input: nums = [3,2,4], target = 6
-Output: [1,2]
-
-<br/>
-Example 3:
-Input: nums = [3,3], target = 6
-Output: [0,1]
- 
-<br/>
-Constraints:
-2 <= nums.length <= 104 <br/>
--109 <= nums[i] <= 109 <br/>
--109 <= target <= 109 <br/>
-Only one valid answer exists.
+<ul>
+	<li><code>2 <= nums.length <= 104</li></code>
+ <li><code>-109 <= nums[i] <= 109</li></code>
+ <li><code>-109 <= target <= 109</li></code>
+ <li><strong>Only one valid answer exists.</strong></li>
+</ul>
