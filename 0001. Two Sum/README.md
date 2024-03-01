@@ -1,4 +1,4 @@
-# 0001 Two Sum
+# 0001 Two Sum [https://leetcode.com/problems/two-sum/description/]
 
 ## Difficulty: Easy | Topics: Array, HashTable
 <hr><div><p>Given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
