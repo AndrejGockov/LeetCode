@@ -1,14 +1,10 @@
 # 0001 Two Sum
 
-## Easy | Array, HashTable
+## Difficulty: Easy | Topics: Array, HashTable
+<hr><div><p>Given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
+<p>You may assume that each input would have <strong><em>exactly</em> one solution</strong>, and you may not use the <em>same</em> element twice.</p>
+<p>You can return the answer in any order.</p>
 
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-<br/>
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
-<br/>
-You can return the answer in any order.
-
-<br/>
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
