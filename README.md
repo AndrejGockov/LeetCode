@@ -28,6 +28,12 @@ It will be frequently updated as I solve the problems.
 |  0217  |  Contains Duplicate |  Easy |
 |  0238  |  Product of Array Except Self |  Medium |
 |  0450  |  Delete Node in a BST |  Medium |
+|  0485  |  Max Consecutive Ones |  Easy |
+|  0507  |  Perfect Number |  Easy |
+|  0509  |  Fibonacci Number |  Easy |
+|  0520  |  Detect Capital |  Easy |
+|  0557  |  Reverse Words in a String III |  Easy |
+|  0709  | To Lower Case |  Easy |
 |  1759  |  Count Number of Homogenous Substrings |  Medium |
 |  2149  |  Rearrange Array Elements by Sign |  Medium |
 |  2364  |  Count Number of Bad Pairs |  Medium |
