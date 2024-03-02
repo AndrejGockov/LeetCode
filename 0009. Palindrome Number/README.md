@@ -1,4 +1,4 @@
-# [0001 Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
+# [0009 Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
 
 ## Difficulty: Easy | Topics: Math
 
