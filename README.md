@@ -37,3 +37,4 @@ It will be frequently updated as I solve the problems.
 |  1759  |  Count Number of Homogenous Substrings |  Medium |
 |  2149  |  Rearrange Array Elements by Sign |  Medium |
 |  2364  |  Count Number of Bad Pairs |  Medium |
+|  2460  |  Apply Operations to an Array |  Easy |
