@@ -34,6 +34,7 @@ It will be frequently updated as I solve the problems.
 |  0520  |  Detect Capital |  Easy |
 |  0557  |  Reverse Words in a String III |  Easy |
 |  0709  | To Lower Case |  Easy |
+|  1662  | Check If Two String Arrays are Equivalent |  Easy |
 |  1759  |  Count Number of Homogenous Substrings |  Medium |
 |  2149  |  Rearrange Array Elements by Sign |  Medium |
 |  2364  |  Count Number of Bad Pairs |  Medium |
