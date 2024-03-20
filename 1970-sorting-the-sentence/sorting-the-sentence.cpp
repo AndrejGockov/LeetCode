@@ -7,7 +7,6 @@ public:
             if(s[i] != ' '){
                 currentWord += s[i];
             }else{
-                // cout<<currentWord<<" ";
                 words.push_back(currentWord);
                 currentWord = "";
             }
@@ -24,7 +23,7 @@ public:
                     position = (int)j - (int)'0';
                     cout<<position<<" ";
                     sortedWords[position - 1] = words[i];
-                    continue;
+                    break;
                }
             }
         }
