@@ -7,7 +7,6 @@ public:
         for(int i = 0; i < k; i++){
             ans += nums[nums.size() - 1];
             nums[nums.size() - 1] += 1;
-            cout<<ans;
         }
 
         return ans;
