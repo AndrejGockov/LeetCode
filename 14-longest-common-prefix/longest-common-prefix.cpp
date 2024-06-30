@@ -6,13 +6,11 @@ public:
         
         for(int i = 0; i < strs[0].size(); i++){
             int j = strs.size() - 1;
-            // while(j > 0){
-                if(strs[0][i] == strs[j][i])
-                    ans+=strs[0][i];
-                else
-                    break;
-                j--;
-            // }
+            if(strs[0][i] == strs[j][i])
+                ans+=strs[0][i];
+            else
+                break;
+            j--;
         }
 
         return ans;
