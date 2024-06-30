@@ -3,7 +3,7 @@ public:
     int findComplement(int num) {
         long long ans = 0;
         int binary[64];
-        int i = 0;
+        int i = 0, j = 0;
         while(num > 0){
             binary[i] = num % 2;
             if(binary[i] == 1)
@@ -14,7 +14,6 @@ public:
             num /= 2;
             i++;
         }
-        int j = 0;
         long long factor = 1;
         while(j < i){
             if(binary[j] == 1)
