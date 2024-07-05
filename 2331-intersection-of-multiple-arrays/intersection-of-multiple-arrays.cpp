@@ -6,8 +6,8 @@ public:
         // Because it the number has to appear everywhere we only itterate through every element in the first sub-vector
         for(int i = 0; i < nums[0].size(); i++){
             bool found = true;
+            // Itterates through every row to see if it contains the current number from the first row
             for(int j = 0; j < nums.size(); j++){
-                // Checks if the 
                 if(find(nums[j].begin(), nums[j].end(), nums[0][i]) == nums[j].end()){
                     found = false;
                     break;
