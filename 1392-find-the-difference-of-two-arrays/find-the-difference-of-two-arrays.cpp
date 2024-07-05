@@ -5,6 +5,9 @@ public:
         vector<int> vecTwo;
         vector<vector<int>> ans;
 
+        // Itterates through both vectors separately and checks that:
+        // The number doesnt exist in the other vector
+        // The number hasnt already been added to the vector
         for(int i = 0; i < nums1.size(); i++){
             if(find(nums2.begin(), nums2.end(),nums1[i]) == nums2.end()
             && find(vecOne.begin(), vecOne.end(), nums1[i]) == vecOne.end())
@@ -17,6 +20,7 @@ public:
                 vecTwo.push_back(nums2[i]);
         }
 
+        // Pushes both vectors into the final answer
         ans.push_back(vecOne);
         ans.push_back(vecTwo);
         return ans;
