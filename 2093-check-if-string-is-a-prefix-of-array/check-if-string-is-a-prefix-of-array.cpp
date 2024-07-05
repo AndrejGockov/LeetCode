@@ -5,11 +5,12 @@ public:
         for(int i = 0; i < words.size(); i++){
             int k = 0;
             while (k < words[i].size()) {
-                if (words[i][k] == s[j]) {
-                    if (j == s.size() - 1 && k == words[i].size() - 1) return true;
-                    k++; j++;
-                } else {
+                if (words[i][k] != s[j])
                     return false;
+                else {
+                    if (j == s.size() - 1 && k == words[i].size() - 1) 
+                        return true;
+                    k++; j++;
                 }
             }
         }
