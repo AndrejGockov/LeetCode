@@ -7,11 +7,15 @@ class Solution {
             if(i == '1' && !firstFound){
                 zeroes += i;
                 firstFound = true;
-            }else if(i == '1'){
-                ones += i;
-            }else{
-                zeroes = i + zeroes;
+                continue;
             }
+            
+            if(i == '1'){
+                ones += i;
+                continue;
+            }
+            
+            zeroes = i + zeroes;
         }
         return ones + zeroes;
     }
