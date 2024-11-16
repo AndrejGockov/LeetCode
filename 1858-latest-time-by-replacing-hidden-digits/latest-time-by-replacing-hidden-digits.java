@@ -3,7 +3,7 @@ class Solution {
         StringBuilder sb = new StringBuilder(time);
         char one = sb.charAt(1);
         if(time.toCharArray()[0] == '?'){
-            if(one < '4' || time.toCharArray()[1] == '?')
+            if(time.toCharArray()[1] < '4' || time.toCharArray()[1] == '?')
                 sb.setCharAt(0, '2');
             else
                 sb.setCharAt(0, '1');
