@@ -1,7 +1,6 @@
 class Solution {
     public String maximumTime(String time) {
         StringBuilder sb = new StringBuilder(time);
-        char one = sb.charAt(1);
         if(time.toCharArray()[0] == '?'){
             if(time.toCharArray()[1] < '4' || time.toCharArray()[1] == '?')
                 sb.setCharAt(0, '2');
