@@ -24,6 +24,7 @@ class Solution {
         if(root == null)
             return;
         
+        System.out.println(root.val);
         itterator(ans, root.left);
         ans.add(root.val);
         itterator(ans, root.right);
