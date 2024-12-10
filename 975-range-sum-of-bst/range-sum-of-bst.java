@@ -16,7 +16,7 @@
 class Solution {
     static int Low;
     static int High;
-    static int ans;
+    int ans;
     public int rangeSumBST(TreeNode root, int low, int high) {
         ans = 0;
         Low = low;
@@ -25,7 +25,7 @@ class Solution {
         return ans;
     }
 
-    static void sumNodes(TreeNode root){
+    public void sumNodes(TreeNode root){
         if(root == null)
             return;
         
