@@ -1,5 +1,5 @@
 class Solution {
-        public boolean isUnivalTree(TreeNode root){
+    public boolean isUnivalTree(TreeNode root){
         if(root == null)
             return true;
         
