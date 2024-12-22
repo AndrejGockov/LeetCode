@@ -14,9 +14,10 @@ class Solution {
             
             if(!hash.containsKey(trust[i][1])){
                 hash.put(trust[i][1], 1);
-            }else{
-                hash.put(trust[i][1], hash.get(trust[i][1]) + 1);
+                continue;
             }
+            
+            hash.put(trust[i][1], hash.get(trust[i][1]) + 1);
         }
 
         for(int i = 1; i <= n; i++){
