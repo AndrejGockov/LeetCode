@@ -28,7 +28,7 @@ class Solution {
             if(i != '#')
                 stackTwo.push(i);
         }
-        System.out.println(stackToString(stackOne) + " " + stackToString(stackTwo));
+        // System.out.println(stackToString(stackOne) + " " + stackToString(stackTwo));
         return stackToString(stackOne).equals(stackToString(stackTwo));
     }
 }
