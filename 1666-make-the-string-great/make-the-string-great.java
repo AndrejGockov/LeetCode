@@ -15,10 +15,10 @@ class Solution {
         }
         
         String ans = "";
-        Iterator value = stack.iterator();
         
-        while(value.hasNext()){
-            ans += value.next();
+        while(!stack.isEmpty()){
+            ans = stack.peek() + ans;
+            stack.pop();
         }
 
         return ans;
