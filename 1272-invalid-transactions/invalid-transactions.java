@@ -30,12 +30,13 @@ class Solution {
                 continue;
             }
 
-            if(hash.containsKey(tran.name)){
-                for(Transaction tr : hash.get(tran.name)){
-                    if(Math.abs(tran.time - tr.time) <= 60  && !tr.city.equals(tran.city)){
-                        ans.add(i);
-                        break;
-                    }
+            if(!hash.containsKey(tran.name))
+                continue;
+            
+            for(Transaction tr : hash.get(tran.name)){
+                if(Math.abs(tran.time - tr.time) <= 60  && !tr.city.equals(tran.city)){
+                    ans.add(i);
+                    break;
                 }
             }
         }
