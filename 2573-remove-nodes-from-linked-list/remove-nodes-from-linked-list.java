@@ -28,7 +28,7 @@ class Solution {
         ListNode dummy = ans;
 
         while(!remainingNums.isEmpty()){
-            dummy.next = new ListNode(remainingNums.pop()); 
+            dummy.next = new ListNode(remainingNums.pop());
             dummy = dummy.next;
         }
 
