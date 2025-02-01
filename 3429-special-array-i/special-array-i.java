@@ -7,10 +7,16 @@ class Solution {
             if(i == 0){
                 if((nums[0] % 2) == (nums[1] % 2))
                     return false;
-            }else if(i == nums.length - 1){
+                continue;
+            }
+            
+            if(i == nums.length - 1){
                 if((nums[nums.length - 1] % 2) == (nums[nums.length - 2] % 2))
                     return false;
-            }else if((nums[i - 1] % 2) == (nums[i] % 2)
+                continue;
+            }
+            
+            if((nums[i - 1] % 2) == (nums[i] % 2)
             || (nums[i] % 2) == (nums[i + 1] % 2)){
                 return false;
             }
