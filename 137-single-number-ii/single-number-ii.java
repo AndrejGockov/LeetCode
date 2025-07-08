@@ -10,6 +10,7 @@ class Solution {
         for(int i : nums){
             if(hash.get(i) == 1){
                 ans = i;
+                break;
             }
         }
 
