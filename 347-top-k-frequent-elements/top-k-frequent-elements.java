@@ -15,12 +15,10 @@ class Solution {
             int maxOccurancesValue = 0;
 
             for(Map.Entry<Integer, Integer> item : table.entrySet()){
-                maxOccurancesKey = (maxOccurancesValue < item.getValue()) ? item.getKey() : maxOccurancesKey;
-                // if(maxOccurancesValue < item.getValue()){
-                maxOccurancesValue = Math.max(maxOccurancesValue, item.getValue());
-                //     maxOccurancesKey = item.getKey();
-                //     maxOccurancesValue = item.getValue();
-                // }
+                if(maxOccurancesValue < item.getValue()){
+                    maxOccurancesKey = item.getKey();
+                    maxOccurancesValue = item.getValue();
+                }
             }
             
             System.out.println(table);
