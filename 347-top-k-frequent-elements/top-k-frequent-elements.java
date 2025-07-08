@@ -5,33 +5,27 @@ class Solution {
         Map<Integer, Integer>table = new HashMap<>();
         
         for(int i = 0; i < n; i++){
-            if(table.containsKey(nums[i])){
-                table.put(nums[i], table.get(nums[i]) + 1);
-            }else{
-                table.put(nums[i], 1);
-            }
+            table.put(nums[i], table.getOrDefault(nums[i], 1) + 1);
         }
 
         int i = 0;
-        System.out.println(table);
 
         while(i < k && !table.isEmpty()){
-            int currKey = 0;
-            int maxOccurances = 0;
+            int maxOccurancesKey = 0;
+            int maxOccurancesValue = 0;
 
             for(Map.Entry<Integer, Integer> item : table.entrySet()){
-
-                System.out.println(item);
-                
-                if(maxOccurances < item.getValue()){
-                    // maxOccurances = Math.max(maxOccurances, item.value());
-                    currKey = item.getKey();
-                    maxOccurances = item.getValue();
-                }
+                maxOccurancesKey = (maxOccurancesValue < item.getValue()) ? item.getKey() : maxOccurancesKey;
+                // if(maxOccurancesValue < item.getValue()){
+                maxOccurancesValue = Math.max(maxOccurancesValue, item.getValue());
+                //     maxOccurancesKey = item.getKey();
+                //     maxOccurancesValue = item.getValue();
+                // }
             }
             
-            table.remove(currKey, maxOccurances);
-            ans[i] = currKey;
+            System.out.println(table);
+            table.remove(maxOccurancesKey, maxOccurancesValue);
+            ans[i] = maxOccurancesKey;
             i++;
         }
         System.out.println(table);
