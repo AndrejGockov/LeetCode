@@ -1,7 +1,6 @@
 class Solution {
     public int singleNumber(int[] nums) {
         int ans = -1;
-        int n = nums.length;
         Map<Integer, Integer>hash = new HashMap<>();
 
         for(int i : nums){
