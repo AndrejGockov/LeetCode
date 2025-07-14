@@ -13,10 +13,8 @@ class BrowserHistory {
     }
     
     public String back(int steps) {
-        for(int i = 0; i < steps; i++){
-            if(history.isEmpty())
-                break;
-            
+        while(steps > 0 && !history.isEmpty()){
+            steps--;
             stepsBack.add(history.pop());
         }
 
@@ -27,10 +25,8 @@ class BrowserHistory {
     }
     
     public String forward(int steps) {
-        for(int i = 0; i < steps; i++){
-            if(stepsBack.isEmpty())
-                break;
-            
+        while(steps > 0 && !stepsBack.isEmpty()){
+            steps--;
             history.add(stepsBack.pop());
         }
 
