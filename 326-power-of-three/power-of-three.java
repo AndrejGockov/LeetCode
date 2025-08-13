@@ -11,7 +11,6 @@ class Solution {
 
         while(i < n){
             power = Math.pow(3, i);
-            System.out.println(power);
 
             if(power > n)
                 break;
