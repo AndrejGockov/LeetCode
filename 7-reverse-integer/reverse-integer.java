@@ -6,7 +6,6 @@ class Solution {
         while(dummy > 0){
             ans = (ans * 10) + dummy % 10;
             dummy /= 10;
-            System.out.println(ans);
         }
 
         if(x < 0)
