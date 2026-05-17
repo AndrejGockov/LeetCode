@@ -11,14 +11,11 @@ public class Solution {
             if(i == ')'){
                 if(stack.Peek() == '('){
                     stack.Pop();
-                }else{
-                    stack.Push(i);
+                    continue;
                 }
-            }else{
-                stack.Push(i);
             }
-
-            Console.WriteLine(stack.Count);
+            
+            stack.Push(i);
         }
 
         return stack.Count;
