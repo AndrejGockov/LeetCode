@@ -8,11 +8,9 @@ public class Solution {
                 continue;
             }
 
-            if(i == ')'){
-                if(stack.Peek() == '('){
-                    stack.Pop();
-                    continue;
-                }
+            if(i == ')' && stack.Peek() == '('){
+                stack.Pop();
+                continue;
             }
             
             stack.Push(i);
